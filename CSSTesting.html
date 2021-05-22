@@ -9,6 +9,29 @@
       H1 {
         text-align: center;
       }
+      .ulist {
+        color: blueviolet;
+        border-top: brown;
+        border-left: springgreen;
+        border-width: 10px;
+        border-style: solid;
+      }
+      .triangle {
+        width: 0;
+        height: 0;
+        border: 100px black solid;
+        border-top: solid transparent;
+        border-right: 200px solid transparent;
+        border-left: 200px solid transparent;
+        transform: rotate(30deg);
+      }
+      .bordered_text {
+        border: black solid 5px;
+        display: block;
+        padding: 3%;
+        width: 20%;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -21,11 +44,13 @@
       <li>ordered list three</li>
     </ol>
     <h2>this is and unordered list</h2>
-    <ul>
+    <ul class="ulist">
       <li>ordered list one</li>
       <li>ordered list two</li>
       <p>just text</p>
       <li>ordered list three</li>
     </ul>
+    <div class="triangle"></div>
+    <p class="bordered_text">this is bordered text</p>
   </body>
 </html>
